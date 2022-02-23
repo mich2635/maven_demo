@@ -1,0 +1,23 @@
+﻿WHAT IS MAVEN?
+
+	Maven is a project management tool ,it is extrmely usefull in managin the jar files ,
+using maven we can easily convert into jar or war files
+
+HOW TO CREATE MAVEN PROJECT?
+	Through command line : mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+	File ->New ->maven project
+
+MAVEN COMMANDS AND PURPOSES
+	mvn clean :Cleans the project by deleting all the resources
+	mvn install :Installs all the dependencies after downloadinf from the mvn repo
+	mvn -DskipTests :Skip all the test cases while building the project
+	mvn build :Build the project
+	mvn complie :used to compile the source code
+	mvn test :Runs the test cases
+	mvn deploy :deploy the code
+
+MAVEN LIFE CYCLE 
+
+	1) Default
+	2)clean
